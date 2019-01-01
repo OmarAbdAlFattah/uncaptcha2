@@ -6,13 +6,13 @@ import subprocess
 from queryAPI import bing, google, ibm
 
 ''' You'll need to update based on the coordinates of your setup '''
-FIREFOX_ICON_COORDS = (25, 	 67) # Location of the Firefox icon on the side toolbar (to left click)
+FIREFOX_ICON_COORDS     = (25, 	 67) # Location of the Firefox icon on the side toolbar (to left click)
 PRIVATE_COORDS		= (178,  69) # Location of "Open a new Private Window"
 PRIVATE_BROWSER 	= (800, 443) # A place where the background of the Private Window will be
 PRIVATE_COLOR		= '#25003E'  # The color of the background of the Private Window
 SEARCH_COORDS 		= (417, 142) # Location of the Firefox Search box
-REFRESH_COORDS      = (181, 137) # Refresh button
-GOOGLE_LOCATION     = (117, 104) # Location of the Google Icon after navigating to google.com/recaptcha/api2/demo
+REFRESH_COORDS          = (181, 137) # Refresh button
+GOOGLE_LOCATION         = (117, 104) # Location of the Google Icon after navigating to google.com/recaptcha/api2/demo
 GOOGLE_COLOR 		= '#C3D8FC'  # Color of the Google Icon
 CAPTCHA_COORDS		= (154, 531) # Coordinates of the empty CAPTCHA checkbox
 CHECK_COORDS 		= (158, 542) # Location where the green checkmark will be
